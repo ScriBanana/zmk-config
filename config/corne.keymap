@@ -84,12 +84,12 @@
             >;
         };
 
-        layer_6 {
+        NavTest_Layer {
             bindings = <
-&none  &kp HOME  &kp PG_UP     &kp UP         &kp PG_DN       &kp C_AC_REDO    &kp LC(X)  &kp PG_UP  &kp UP     &kp PG_DN   &kp END       &kp PSCRN
-&none  &kp END   &kp LEFT      &kp DOWN       &kp RIGHT       &kp C_AC_UNDO    &kp LC(C)  &kp LEFT   &kp DOWN   &kp RIGHT   &kp LA(LEFT)  &kp LA(RIGHT)
-&none  &kp INS   &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &caps_word       &kp LC(V)  &kp LC(Z)  &kp LC(Y)  &caps_word  &kp LC(F)     &kp INS
-                               &none          &kp BACKSPACE   &kp DEL          &none      &none      &none
+&none      &kp HOME  &kp PG_UP     &kp UP         &kp PG_DN       &kp C_AC_REDO    &kp LC(X)  &kp PG_UP  &kp UP     &kp PG_DN   &kp END       &kp HOME
+&kp PSCRN  &kp END   &kp LEFT      &kp DOWN       &kp RIGHT       &kp C_AC_UNDO    &kp LC(C)  &kp LEFT   &kp DOWN   &kp RIGHT   &kp LA(LEFT)  &kp LA(RIGHT)
+&none      &kp INS   &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &caps_word       &kp LC(V)  &kp LC(Z)  &kp LC(Y)  &caps_word  &kp LC(F)     &kp INS
+                                   &none          &kp BACKSPACE   &kp DEL          &none      &none      &none
             >;
         };
     };
