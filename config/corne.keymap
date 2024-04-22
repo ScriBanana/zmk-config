@@ -19,9 +19,9 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         u_lt: u_lt {
@@ -80,7 +80,7 @@
 &none  &none     &none     &none      &none      &none    &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &none
 &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp COLON  &none
 &none  &none     &kp RALT  &none      &none      &none    &kp PIPE   &kp EXCL  &kp AT     &kp HASH   &kp TILDE  &none
-                           &none      &none      &none    &kp UNDER  &kp LPAR  &kp RPAR
+                           &none      &none      &none    &kp UNDER  &kp RPAR  &kp RPAR
             >;
         };
 
