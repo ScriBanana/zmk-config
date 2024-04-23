@@ -66,7 +66,7 @@
             >;
         };
 
-        Num_layer {
+        Sym_Layer {
             bindings = <
 &none  &none     &none     &none      &none      &none    &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT   &none
 &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp EQUAL  &kp N4  &kp N5   &kp N6  &kp SEMI   &none
@@ -75,21 +75,21 @@
             >;
         };
 
-        Sym_layer {
+        Num_layer {
             bindings = <
-&none  &none     &none     &none      &none      &none    &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp COLON  &none
-&none  &none     &kp RALT  &none      &none      &none    &kp PIPE   &kp EXCL  &kp AT     &kp HASH   &kp TILDE  &none
-                           &none      &none      &none    &kp UNDER  &kp RPAR  &kp RPAR
+&none  &none     &none     &none      &none      &none    &kp N9     &kp AMPS  &kp ASTRK  &kp LPAR   &kp N0  &kp C_AL_CALC
+&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp N8     &kp DLLR  &kp PRCNT  &kp CARET  &kp N5  &kp N6
+&none  &none     &kp RALT  &none      &none      &none    &kp G      &kp EXCL  &kp AT     &kp HASH   &kp N4  &kp N7
+                           &none      &none      &none    &kp ENTER  &kp RPAR  &kp C
             >;
         };
 
         NavTest_Layer {
             bindings = <
-&none      &kp HOME  &kp PG_UP     &kp UP         &kp PG_DN       &kp C_AC_REDO    &kp LC(X)  &kp PG_UP  &kp UP     &kp PG_DN   &kp END       &kp HOME
-&kp PSCRN  &kp END   &kp LEFT      &kp DOWN       &kp RIGHT       &kp C_AC_UNDO    &kp LC(C)  &kp LEFT   &kp DOWN   &kp RIGHT   &kp LA(LEFT)  &kp LA(RIGHT)
-&none      &kp INS   &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &caps_word       &kp LC(V)  &kp LC(Z)  &kp LC(Y)  &caps_word  &kp LC(F)     &kp INS
-                                   &none          &kp BACKSPACE   &kp DEL          &none      &none      &none
+&none      &kp HOME  &kp PG_UP           &kp UP         &kp PG_DN       &kp C_AC_REDO    &kp LC(X)  &kp PG_UP  &kp UP     &kp PG_DN   &kp END       &kp HOME
+&kp PSCRN  &kp LGUI  &kp LALT            &kp LCTRL      &kp LSHFT       &kp C_AC_UNDO    &kp LC(C)  &kp LEFT   &kp DOWN   &kp RIGHT   &kp LA(LEFT)  &kp LA(RIGHT)
+&none      &kp INS   &hrm RALT C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &caps_word       &kp LC(V)  &kp LC(Z)  &kp LC(Y)  &caps_word  &kp LC(F)     &kp INS
+                                         &none          &kp BACKSPACE   &kp DEL          &none      &none      &none
             >;
         };
     };
