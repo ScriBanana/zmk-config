@@ -97,5 +97,14 @@
                               &kp DEL     &kp LSHFT   &kp BSPC     &kp ENTER  &none      &none
             >;
         };
+
+        Gaming {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp ESC  &kp SPACE  &kp LALT    &trans  &trans  &trans
+            >;
+        };
     };
 };
