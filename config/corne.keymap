@@ -44,12 +44,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Base_layer {
+        Base {
             bindings = <
-&kp LGUI   &kp Q            &kp W        &kp E                &kp R      &kp T         &kp Y        &kp U               &kp I      &kp O          &kp P     &kp LBKT
-&kp ENTER  &kp A            &kp S        &kp D                &kp F      &kp G         &kp H        &kp J               &kp K      &kp L          &kp SEMI  &kp APOS
-&lt 1 TAB  &kp NON_US_BSLH  &hrm RALT Z  &kp X                &kp C      &kp V         &kp N        &kp M               &kp COMMA  &hrm RALT DOT  &kp FSLH  &kp RBKT
-                                         &mt LEFT_ALT ESCAPE  &sk LCTRL  &sk LSHIFT    &lt 3 SPACE  &mt RALT BACKSPACE  &kp DEL
+&kp LGUI     &kp Q            &kp W        &kp E                &kp R      &kp T         &kp Y        &kp U               &kp I      &kp O          &kp P     &kp LBKT
+&lt 2 ENTER  &kp A            &kp S        &kp D                &kp F      &kp G         &kp H        &kp J               &kp K      &kp L          &kp SEMI  &kp APOS
+&kp TAB      &kp NON_US_BSLH  &hrm RALT Z  &kp X                &kp C      &kp V         &kp N        &kp M               &kp COMMA  &hrm RALT DOT  &kp FSLH  &kp RBKT
+                                           &mt LEFT_ALT ESCAPE  &sk LCTRL  &sk LSHIFT    &lt 1 SPACE  &mt RALT BACKSPACE  &kp DEL
+            >;
+        };
+
+        Num+Sym {
+            bindings = <
+&trans  &kp LS(EXCL)  &kp AT  &kp POUND  &kp DLLR  &kp LS(PRCNT)    &kp N9  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp GRAVE
+&trans  &kp N1        &kp N2  &kp N3     &kp N4    &kp N5           &kp N6  &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
+&trans  &none         &none   &none      &none     &none            &none   &none     &none     &none     &none     &kp MINUS
+                              &trans     &trans    &trans           &none   &trans    &trans
+            >;
+        };
+
+        Nav+Mouse {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans
+&none   &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans     &trans    &trans     &trans  &trans
+                              &trans     &trans     &trans    &trans  &trans     &trans
             >;
         };
 
@@ -71,30 +89,12 @@
             >;
         };
 
-        Num_layer {
-            bindings = <
-&trans  &kp LS(EXCL)  &kp AT  &kp POUND  &kp DLLR  &kp LS(PRCNT)    &kp N9  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp GRAVE
-&trans  &kp N1        &kp N2  &kp N3     &kp N4    &kp N5           &kp N6  &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
-&trans  &none         &none   &none      &none     &none            &none   &none     &none     &none     &none     &kp MINUS
-                              &trans     &trans    &trans           &none   &trans    &trans
-            >;
-        };
-
-        Sym_Layer {
-            bindings = <
-&kp N1     &kp N2     &kp N5  &kp RA(Q)   &kp RA(W)   &kp GRAVE    &none      &none      &none      &none     &none     &none
-&kp MINUS  &kp N6     &kp N7  &kp N9      &kp N0      &kp N3       &none      &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&kp RA(U)  &kp RA(I)  &kp N8  &kp RA(N9)  &kp RA(N0)  &kp EQUAL    &none      &none      &none      &kp RALT  &none     &none
-                              &kp DEL     &kp LSHFT   &kp BSPC     &kp ENTER  &none      &none
-            >;
-        };
-
         Gaming {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp ESC  &kp SPACE  &kp LALT    &trans  &trans  &trans
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &none  &none  &none  &none  &none  &none
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &none  &none  &none  &none  &none
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &none  &none  &none  &none  &none  &none
+                         &kp ESC  &kp SPACE  &kp LALT    &none  &none  &none
             >;
         };
     };
