@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 
 &sk {
     release-after-ms = <900>;
@@ -62,37 +61,19 @@
             >;
         };
 
-        Nav+Mouse {
+        Nav+Mouse+Keyb {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans
-&none   &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans     &trans    &trans     &trans  &trans
-                              &trans     &trans     &trans    &trans  &trans     &trans
-            >;
-        };
-
-        Nav_Layer {
-            bindings = <
-&none      &none     &none     &none      &none      &none      &kp LC(LBKT)  &kp PG_UP     &kp UP       &kp PG_DN   &kp END       &kp HOME
-&kp PSCRN  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none      &kp LC(M)     &kp LEFT      &kp DOWN     &kp RIGHT   &kp LA(LEFT)  &kp LA(RIGHT)
-&none      &none     &kp RALT  &none      &none      &none      &kp LC(FSLH)  &kp LC(RBKT)  &kp LC(Z)    &caps_word  &kp LC(Y)     &kp INS
-                               &none      &kp LSHFT  &kp DEL    &kp ENTER     &kp SPACE     &kp LA(TAB)
-            >;
-        };
-
-        Media_layer {
-            bindings = <
-&none  &none         &kp K_PREV    &kp C_VOL_UP  &kp K_NEXT    &none                &none  &none      &none      &none     &none     &none
-&none  &kp PSCRN     &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &ext_power EP_TOG    &none  &kp LSHFT  &kp LCTRL  &kp RALT  &kp LGUI  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG         &none  &none      &none      &kp LALT  &none     &none
-                                   &kp C_MUTE    &kp C_PP      &kp C_STOP           &none  &none      &none
+&none  &ext_power EP_TOG  &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(O)    &kp C_VOL_UP  &kp PG_UP  &kp UP      &kp PG_DN  &kp INS          &kp C_NEXT
+&none  &bt BT_NXT         &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN    &kp RIGHT  &kp PRINTSCREEN  &kp C_PP
+&none  &to 3              &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &caps_word  &kp END    &kp C_AL_CALC    &kp C_PREV
+                                        &trans                 &trans                     &trans       &trans        &trans     &trans
             >;
         };
 
         Gaming {
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &none  &none  &none  &none  &none  &none
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &none  &none  &none  &none  &none
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &to 0  &none  &none  &none  &none
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &none  &none  &none  &none  &none  &none
                          &kp ESC  &kp SPACE  &kp LALT    &none  &none  &none
             >;
