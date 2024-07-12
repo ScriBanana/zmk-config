@@ -8,11 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-
-&sk {
-    release-after-ms = <900>;
-    quick-release;
-};
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
@@ -38,10 +34,10 @@
 
         Nav+Mouse+Keyb {
             bindings = <
-&none  &ext_power EP_TOG  &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(O)    &kp C_VOL_UP  &kp PG_UP  &kp UP      &kp PG_DN  &kp INS          &kp C_NEXT
-&none  &bt BT_NXT         &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN    &kp RIGHT  &kp PRINTSCREEN  &kp C_PP
-&none  &to 3              &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &caps_word  &kp END    &kp C_AL_CALC    &kp C_PREV
-                                        &trans                 &trans                     &trans       &trans        &trans     &trans
+&ext_power EP_TOG  &bt BT_CLR  &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(O)    &kp C_VOL_UP  &kp PG_UP  &kp UP      &kp PG_DN  &kp INS          &kp C_NEXT
+&none              &bt BT_NXT  &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN    &kp RIGHT  &kp PRINTSCREEN  &kp C_PP
+&out OUT_TOG       &to 3       &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &caps_word  &kp END    &kp C_AL_CALC    &kp C_PREV
+                                             &trans                 &trans                     &trans       &trans        &trans     &trans
             >;
         };
 
