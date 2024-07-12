@@ -4,7 +4,7 @@
 - _Keyboard: [Corne](https://github.com/foostan/crkbd)_
 - _Firmware: [ZMK](https://zmk.dev/)_
 
-![[Images/OptiCorne.png]]
+![OptiCorne](OptiCorne.png)
 
 ## Features :
 - **To be used with a mouse** (right-handed)
