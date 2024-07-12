@@ -1,4 +1,4 @@
-# An easy-to-learn Corne layout, with Optimot as a basis
+# An easy-to-learn, Optimot-based, Corne layout
 
 - _Layout: [Optimot](https://optimot.fr/) (choose Optimot ISO driver)_
 - _Keyboard: [Corne](https://github.com/foostan/crkbd)_
