@@ -29,6 +29,7 @@
 ## Limitations:
 - `AltGr+Space` (non-breaking space) is not really possible 
 - `Caps-word` doesn't stop with some punctuation characters (ZMK limitation)
+- `Shift+Alt+Tab` is not possible (`Shift+Alt`, in general)
 
 ## Notes:
 - Meant for Linux; Windows should work; MacOS would require light changes.
