@@ -18,9 +18,9 @@
 
         Base {
             bindings = <
-&kp LGUI     &kp    &kp J  &kp O                &kp        &kp B         &kp F        &kp D               &kp L    &kp SQT  &kp Q  &kp X
+&kp LGUI     &kp À  &kp J  &kp O                &kp É      &kp B         &kp F        &kp D               &kp L    &kp SQT  &kp Q  &kp X
 &lt 2 ENTER  &kp A  &kp I  &kp E                &kp U      &kp COMMA     &kp P        &kp T               &kp S    &kp R    &kp N  &kp CARET
-&kp TAB      &kp K  &kp Y  &kp                  &kp DOT    &kp W         &kp G        &kp C               &kp M    &kp H    &kp V  &kp Z
+&kp TAB      &kp K  &kp Y  &kp È                &kp DOT    &kp W         &kp G        &kp C               &kp M    &kp H    &kp V  &kp Z
                            &mt LEFT_ALT ESCAPE  &kp LCTRL  &sk LSHIFT    &lt 1 SPACE  &mt RALT BACKSPACE  &kp DEL
             >;
         };
@@ -28,7 +28,7 @@
         NumSym {
             bindings = <
 &trans  &kp N1    &kp N2    &kp N3   &kp N4     &kp N5      &kp N6    &kp N7    &kp N8     &kp N9    &kp N0    &none
-&trans  &kp STAR  &kp STAR  &kp DQT  &kp MINUS  &kp PLUS    &kp STAR  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR  &none
+&trans  &kp «     &kp »     &kp DQT  &kp MINUS  &kp PLUS    &kp STAR  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR  &none
 &trans  &none     &none     &kp AT   &kp POUND  &none       &none     &kp DLLR  &none      &none     &none     &none
                             &trans   &trans     &trans      &none     &trans    &trans
             >;
