@@ -25,10 +25,10 @@
 
         Num+Sym {
             bindings = <
-&trans  &kp LS(EXCL)  &kp AT  &kp POUND  &kp DLLR  &kp LS(PRCNT)    &kp N9  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp GRAVE
-&trans  &kp N1        &kp N2  &kp N3     &kp N4    &kp N5           &kp N6  &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
-&trans  &none         &none   &none      &none     &none            &none   &none     &none     &none     &none     &kp MINUS
-                              &trans     &trans    &trans           &none   &trans    &trans
+&trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR  &kp PERCENT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp GRAVE
+&trans  &kp N1    &kp N2  &kp N3     &kp N4    &kp N5         &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
+&trans  &none     &none   &none      &none     &none          &none      &none     &none     &none     &none     &kp MINUS
+                          &trans     &trans    &trans         &none      &trans    &trans
             >;
         };
 
