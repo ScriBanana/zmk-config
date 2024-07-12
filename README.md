@@ -21,15 +21,15 @@
 	- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
 - **Leverages Optimot capabilities for symbols**
 	- The Optimot layout is highly optimised for French and English secondarily
-  - It provides with many ideally placed characters
-	- `AltGr` is in a key position to access them
+ 	- It provides with many ideally placed characters
+  	- `AltGr` is in a key position to access them
 
 ## Limitations:
 - `AltGr+Space` (non-breaking space) is not really possible 
 - `Caps-word` doesn't stop with some punctuation characters (ZMK limitation)
 
 ## Notes:
-- Meant for Linux; Windows should work; MacOS would require light changes.
+- Meant for Linux; Windows should work; MacOS would require light changes.
 - What is loaded as firmware differs from the picture, as Optimot drivers modifies the QWERTY layout downstream
 - The gaming layer is entirely optional
 - `Alt` and `GUI` may be swapped depending on one's use
