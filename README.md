@@ -1,23 +1,25 @@
 # An easy-to-learn Corne layout, with Optimot as a basis
 
-- _Layout: [Optimot](https://optimot.fr/) (choose Optimot ISO as driver)_
+- _Layout: [Optimot](https://optimot.fr/) (choose Optimot ISO driver)_
 - _Keyboard: [Corne](https://github.com/foostan/crkbd)_
 - _Firmware: [ZMK](https://zmk.dev/)_
 
 ![OptiCorne](OptiCorne.png)
 
-## Features :
+## Features:
 - **Mouse-friendly** (right-handed)
 	- Utility modifiers heavily clustered on the left hand
 	- A mouse-support layer on the left hand
 - **Easy to learn, easy to swap**
 	- Few layers
 	- Utility keys don't change between layers
-	- Familiar numbers and symbols layouts
-	- Usual navigation shortcuts, yet more accessibles; no dedicated key nor homerow mod (_only learn once_)
+ 	- Close to a standard keyboard (_learn only once_):
+		- Familiar numbers and symbols layouts
+		- Usual navigation shortcuts, yet more accessibles
+	 	- No dedicated key nor homerow mod
 - **Painless shortcuts**
 	- Text modifiers under the thumbs (`SymNum`, `Shift` and `AltGr`)
-	- Modifiers and layer switchers are easily comboed
+	- Modifiers and layer switchers are easily comboed with fat fingers
 	- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
 - **Leverages Optimot**
 	- The Optimot layout is highly optimised for French and English secondarily
