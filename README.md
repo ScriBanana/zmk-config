@@ -7,10 +7,10 @@
 ![OptiCorne](OptiCorne.png)
 
 ## Features :
-- **To be used with a mouse** (right-handed)
+- **Mouse-friendly** (right-handed)
 	- Utility modifiers heavily clustered on the left hand
 	- A mouse-support layer on the left hand
-- **Easy to learn**
+- **Easy to learn, easy to swap**
 	- Few layers
 	- Utility keys don't change between layers
 	- Familiar numbers and symbols layouts
@@ -19,7 +19,7 @@
 	- Text modifiers under the thumbs (`SymNum`, `Shift` and `AltGr`)
 	- Modifiers and layer switchers are easily comboed
 	- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
-- **Leverages Optimot capabilities for symbols**
+- **Leverages Optimot**
 	- The Optimot layout is highly optimised for French and English secondarily
  	- It provides with many ideally placed characters
   	- `AltGr` is in a key position to access them
