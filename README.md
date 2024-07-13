@@ -21,13 +21,13 @@
 	- Text modifiers under the thumbs (`SymNum`, `Shift` and `AltGr`)
 	- Modifiers and layer switchers are easily comboed with fat fingers
 	- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
-- **Leverages Optimot**
+- **Leverages Optimot and its driver**
 	- The Optimot layout is highly optimised for French and English secondarily
- 	- It provides with many ideally placed characters
+ 	- Its driver provides with many ideally placed characters
   	- `AltGr` is in a key position to access them
 
 ## Limitations:
-- `AltGr+Space` (non-breaking space) is not really possible 
+- `AltGr+Space` (non-breaking space) is not really possible
 - `Caps-word` doesn't stop with some punctuation characters (ZMK limitation)
 - `Shift+Alt+Tab` is not possible (`Shift+Alt`, in general)
 
