@@ -21,7 +21,7 @@
 &kp TAB    &kp Q     &kp W  &kp E         &kp R      &kp T      &kp Y        &kp U          &kp I      &kp O       &kp P     &kp LBKT
 &kp LCTRL  &kp A     &kp S  &kp D         &kp F      &kp G      &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp APOS
 &kp LGUI   &kp NUBS  &kp Z  &kp X         &kp C      &kp V      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp FSLH  &kp RBKT
-                            &mt LALT DEL  &lt 2 ESC  &kp LSHFT  &lt 1 SPACE  &mt RALT BSPC  &kp RET
+                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &mt RALT BSPC  &kp RET
             >;
         };
 
@@ -37,7 +37,7 @@
         NavMouse {
             bindings = <
 &ext_power EP_TOG  &out OUT_TOG &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(E)    &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
-&none              &bt BT_NXT   &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
+&trans             &bt BT_NXT   &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
 &trans             &to 3        &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
                                               &trans                 &trans                     &trans       &trans        &trans     &trans
             >;
