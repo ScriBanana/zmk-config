@@ -18,36 +18,36 @@
 
         Base {
             bindings = <
-&kp TAB    &kp Q     &kp W  &kp E         &kp R      &kp T      &kp Y       &kp U           &kp I      &kp O       &kp P     &kp LBKT
-&kp LCTRL  &kp A     &kp S  &kp D         &kp F      &kp G      &kp H       &kp J           &kp K      &kp L       &kp SEMI  &kp APOS
-&kp LGUI   &kp NUBS  &kp Z  &kp X         &kp C      &kp V      &kp N       &kp M           &kp COMMA  &kp PERIOD  &kp FSLH  &kp RBKT
-                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 BSPC  &mt RALT SPACE  &kp RET
+&kp TAB    &kp Q     &kp W  &kp E         &kp R      &kp T      &kp Y        &kp U          &kp I      &kp O       &kp P     &kp LBKT
+&kp LCTRL  &kp A     &kp S  &kp D         &kp F      &kp G      &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp APOS
+&kp LGUI   &kp NUBS  &kp Z  &kp X         &kp C      &kp V      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp FSLH  &kp RBKT
+                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &mt RALT BSPC  &kp RET
             >;
         };
 
         NumSym {
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR   &kp PERCENT    &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &none
-&trans  &kp N1    &kp N2  &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8    &kp N9    &kp N0    &none
-&trans  &none     &none   &kp MINUS  &kp EQUAL  &none          &none      &kp GRAVE  &none     &none     &none     &none
-                          &trans     &trans     &trans         &trans     &trans     &trans
+&trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR   &kp PERCENT  &kp CARET   &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &none
+&trans  &kp N1    &kp N2  &kp N3     &kp N4     &kp N5       &kp N6      &kp N7     &kp N8    &kp N9    &kp N0    &none
+&trans  &none     &none   &kp MINUS  &kp EQUAL  &none        &RA(SPACE)  &kp GRAVE  &none     &none     &none     &none
+                          &trans     &trans     &trans       &trans      &trans     &trans
             >;
         };
 
         NavMouse {
             bindings = <
-&ext_power EP_TOG  &out OUT_TOG &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(E)    &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
-&trans             &bt BT_NXT   &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
-&trans             &to 3        &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
-                                              &trans                 &trans                     &trans       &trans        &trans     &trans
+&trans  &trans  &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(E)    &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
+&trans  &trans  &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
+&trans  &to 3   &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
+                              &trans                 &trans                     &trans       &trans        &trans     &trans
             >;
         };
 
-        Gaming {
+        GamKeyb {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &none  &none  &none  &none  &none  &none
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &to 0  &none  &none  &none  &none
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &none  &none  &none  &none  &none  &none
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &none  &ext_power EP_TOG  &out OUT_TOG  &none  &none  &none
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &to 0              &none         &none  &none  &none
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &bt BT_NXT  &none         &none         &none  &none  &none
                          &kp ESC  &kp SPACE  &kp LALT    &none  &none  &none
             >;
         };
