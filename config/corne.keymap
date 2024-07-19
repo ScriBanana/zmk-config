@@ -29,26 +29,26 @@
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR   &kp PERCENT  &kp CARET   &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &none
 &trans  &kp N1    &kp N2  &kp N3     &kp N4     &kp N5       &kp N6      &kp N7     &kp N8    &kp N9    &kp N0    &none
-&trans  &none     &none   &kp MINUS  &kp EQUAL  &none        &RA(SPACE)  &kp GRAVE  &none     &none     &none     &none
+&trans  &none     &none   &kp MINUS  &kp EQUAL  &none        &kp RA(SPACE)  &kp GRAVE  &none     &none     &none     &to 3
                           &trans     &trans     &trans       &trans      &trans     &trans
             >;
         };
 
         NavMouse {
             bindings = <
-&trans  &trans  &kp LC(A)     &kp LC(RIGHT_BRACKET)  &kp LC(LS(RIGHT_BRACKET))  &kp LC(E)    &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
-&trans  &trans  &kp LC(LBKT)  &kp LC(M)              &kp LC(FSLH)               &kp LC(H)    &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
-&trans  &to 3   &kp LC(L)     &kp LC(Y)              &kp LC(J)                  &kp LC(K)    &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
-                              &trans                 &trans                     &trans       &trans        &trans     &trans
+&trans  &kp LC(E)     &kp LC(K)     &kp LC(RBKT)  &kp LC(LS(RBKT))  &kp LC(A)  &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
+&trans  &kp LC(J)     &kp LC(LBKT)  &kp LC(M)     &kp LC(FSLH)      &kp LC(L)  &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
+&trans  &kp LC(SEMI)  &kp LC(H)     &kp LC(N)     &kp LC(Y)         &kp LC(B)  &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
+                                    &trans        &trans            &trans     &trans        &trans     &trans
             >;
         };
 
         GamKeyb {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T       &none  &ext_power EP_TOG  &out OUT_TOG  &none  &none  &none
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G       &none  &to 0              &none         &none  &none  &none
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B       &bt BT_NXT  &none         &none         &none  &none  &none
-                         &kp ESC  &kp SPACE  &kp LALT    &none  &none  &none
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T     &none       &soft_off     &ext_power EP_ON  &ext_power EP_OFF  &none         &none
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G     &none       &to 0         &out OUT_BLE      &out OUT_USB       &none         &none
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B     &bt BT_NXT  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4  &bt BT_CLR
+                         &kp ESC  &kp SPACE  &kp LALT  &none       &none              &none
             >;
         };
     };
