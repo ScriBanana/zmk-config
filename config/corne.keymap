@@ -36,7 +36,7 @@
 
         NavMouse {
             bindings = <
-&trans  &kp LC(N)     &kp LC(H)     &kp LC(RBKT)  &kp LC(LS(RBKT))  &kp LC(Y)  &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
+&trans  &kp LC(N)     &kp LC(H)     &kp LC(RBKT)  &kp LC(LS(RBKT))  &kp LC(J)  &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
 &trans  &kp LC(A)     &kp LC(LBKT)  &kp LC(M)     &kp LC(FSLH)      &kp LC(L)  &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
 &trans  &kp LC(SEMI)  &kp LC(E)     &kp LC(K)     &kp LC(Y)         &kp LC(V)  &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
                                     &trans        &trans            &trans     &trans        &trans     &trans
