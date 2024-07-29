@@ -15,7 +15,7 @@
 &kp TAB    &kp Q     &kp W  &kp E         &kp R      &kp T      &kp Y        &kp U          &kp I      &kp O       &kp P     &kp LBKT
 &kp LCTRL  &kp A     &kp S  &kp D         &kp F      &kp G      &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp APOS
 &kp LGUI   &kp NUBS  &kp Z  &kp X         &kp C      &kp V      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp FSLH  &kp RBKT
-                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &kp BSPC  &mt RALT RET
+                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &mt RALT BSPC  &kp RET
             >;
         };
 
