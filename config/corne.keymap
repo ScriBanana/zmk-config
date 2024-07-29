@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
@@ -21,7 +15,7 @@
 &kp TAB    &kp Q     &kp W  &kp E         &kp R      &kp T      &kp Y        &kp U          &kp I      &kp O       &kp P     &kp LBKT
 &kp LCTRL  &kp A     &kp S  &kp D         &kp F      &kp G      &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp APOS
 &kp LGUI   &kp NUBS  &kp Z  &kp X         &kp C      &kp V      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp FSLH  &kp RBKT
-                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &mt RALT BSPC  &kp RET
+                            &mt LALT ESC  &lt 2 DEL  &kp LSHFT  &lt 1 SPACE  &kp BSPC  &mt RALT RET
             >;
         };
 
@@ -36,10 +30,10 @@
 
         NavMouse {
             bindings = <
-&trans  &kp LC(N)     &kp LC(H)     &kp LC(RBKT)  &kp LC(LS(RBKT))  &kp LC(Y)  &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
-&trans  &kp LC(A)     &kp LC(LBKT)  &kp LC(M)     &kp LC(FSLH)      &kp LC(L)  &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
-&trans  &kp LC(SEMI)  &kp LC(E)     &kp LC(K)     &kp LC(J)         &kp LC(V)  &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
-                                    &trans        &trans            &trans     &trans        &trans     &trans
+&trans  &kp LC(N)     &kp LC(PERIOD)  &kp LC(RBKT)  &kp LC(LS(RBKT))  &kp LC(Y)  &kp C_VOL_UP  &kp PG_UP  &kp UP    &kp PG_DN  &kp C_AL_CALC  &kp C_NEXT
+&trans  &kp LC(A)     &kp LC(LBKT)    &kp LC(M)     &kp LC(FSLH)      &kp LC(L)  &kp C_MUTE    &kp LEFT   &kp DOWN  &kp RIGHT  &caps_word     &kp C_PP
+&trans  &kp LC(SEMI)  &kp LC(E)       &kp LC(K)     &kp LC(J)         &kp LC(H)  &kp C_VOL_DN  &kp HOME   &kp INS   &kp END    &kp PSCRN      &kp C_PREV
+                                      &trans        &trans            &trans     &trans        &trans     &trans
             >;
         };
 
