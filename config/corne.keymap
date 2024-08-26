@@ -39,10 +39,10 @@
 
         GamKeyb {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T     &none       &soft_off     &ext_power EP_ON  &ext_power EP_OFF  &none         &none
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G     &none       &to 0         &out OUT_BLE      &out OUT_USB       &none         &none
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B     &bt BT_NXT  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4  &bt BT_CLR
-                         &kp ESC  &kp SPACE  &kp LALT  &none       &none              &none
+&kp TAB    &kp P     &kp B     &kp D    &kp L      &kp J     &none       &soft_off     &ext_power EP_ON  &ext_power EP_OFF  &none         &none
+&kp LSHFT  &kp A     &kp K     &kp U    &kp Y      &kp N     &none       &to 0         &out OUT_BLE      &out OUT_USB       &none         &none
+&kp LCTRL  &kp RBKT  &kp LBKT  &kp M    &kp FSLH   &kp T     &bt BT_NXT  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4  &bt BT_CLR
+                               &kp ESC  &kp SPACE  &kp LALT  &none       &none              &none
             >;
         };
     };
