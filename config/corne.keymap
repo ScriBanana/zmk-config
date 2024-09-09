@@ -21,10 +21,10 @@
 
         NumSym {
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR   &kp PERCENT  &kp CARET      &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &none
+&trans  &kp EXCL  &kp AT  &kp POUND  &kp DLLR   &kp PERCENT  &kp CARET      &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &to 3
 &trans  &kp N1    &kp N2  &kp N3     &kp N4     &kp N5       &kp N6         &kp N7     &kp N8    &kp N9    &kp N0    &none
-&trans  &none     &none   &kp MINUS  &kp EQUAL  &none        &kp RA(SPACE)  &kp GRAVE  &none     &none     &none     &to 3
-                          &trans     &trans     &trans       &trans      &trans     &trans
+&trans  &none     &none   &kp MINUS  &kp EQUAL  &none        &kp RA(SPACE)  &kp GRAVE  &none     &none     &none     &none
+                          &trans     &trans     &trans       &trans         &trans     &trans
             >;
         };
 
