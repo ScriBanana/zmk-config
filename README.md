@@ -1,39 +1,41 @@
-# An easy-to-learn, Optimot-based, Corne layout
+# An easy-to-learn, Optimot-based Corne layout
 
+## Dependencies:
 - _Layout: [Optimot](https://optimot.fr/) (choose Optimot ISO driver)_
 - _Keyboard: [Corne](https://github.com/foostan/crkbd)_
 - _Firmware: [ZMK](https://zmk.dev/)_
 
-![OptiCorne](OptiCorne.png)
+## Keymap:
+![VisualKeyMap](/Illustrations/CorneOptimot.webp)
 
 ## Features:
-- **Mouse-friendly** (right-handed)
-	- Utility modifiers heavily clustered on the left hand
-	- A mouse-support layer on the left hand
-- **Easy to learn, easy to swap**
-	- Few layers
-	- Utility keys don't change between layers
- 	- Close to a standard keyboard (_learn only once_):
-		- Familiar numbers and symbols layouts
-		- Usual navigation shortcuts, yet more accessibles
-	 	- No dedicated key nor homerow mod
-- **Painless shortcuts**
-	- Text modifiers under the thumbs (`SymNum`, `Shift` and `AltGr`)
-	- Modifiers and layer switchers are easily comboed with fat fingers
-	- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
-- **Leverages Optimot and its driver**
-	- The Optimot layout is highly optimised for French and English secondarily
- 	- Its driver provides with many ideally placed characters
-  	- `AltGr` is in a key position to access them
+#### Leverages Optimot and its driver
+- The Optimot layout is highly optimised for French and English secondarily
+- Its driver provides with many ideally placed characters in secondary layers
+- `AltGr` is in a key position to access them
+#### Easy to learn, easy to swap
+- Few layers
+- Utility keys don't change between layers
+- Close to a standard keyboard (_learn your layout only once_):
+	- Familiar numbers and symbols layouts
+	- Usual navigation shortcuts, yet more accessible
+ 	- No dedicated key, homerow mod nor comboes
+#### Mouse-friendly (right-handed)
+- Utility modifiers heavily clustered on the left hand
+- Mouse-support layer on the left hand (one hand) for natively two-handed shortcuts (`ctrl+C`, `ctrl+V`, etc)
+#### Painless shortcuts
+- Typing modifiers under the thumbs (`SymNum`, `Shift` and `AltGr`)
+- Modifiers and layer switchers are easily comboed with fat thumbs
+- Navigation and deletion are combinable with `ctrl`, `shift` and `GUI`
 
 ## Limitations:
-- `AltGr+Space` (non-breaking space) is not really possible
-- `Caps-word` doesn't stop with some punctuation characters (ZMK limitation)
-- `Shift+Alt+Tab` is not possible (`Shift+Alt`, in general)
+- `AltGr+Space` (non-breaking space) is not really possible, thus the dedicated key in the symbol layer.
+- `Caps-word` doesn't stop with some punctuation characters (ZMK limitation due to the optimot layer).
+- `Shift+Alt+Tab` is not really possible (`Shift+Alt`, in general).
+- Browser navigation (`Alt+left/right`) is two-handed, but any mouse with five buttons or more will provide with it for the right hand.
 
 ## Notes:
-- Meant for Linux; Windows should work; MacOS would require light changes.
-- What is loaded as firmware differs from the picture, as Optimot drivers modifies the QWERTY layout downstream
-- The gaming layer is entirely optional
-- `Alt` and `GUI` may be swapped depending on one's use
-- The left hand mouse-support layer does not feature browser navigation, but any mouse with five buttons or more will have it
+- Made for Linux; Windows should work; MacOS would require light changes.
+- What is loaded as firmware (`.keymap` file) differs from the picture, as Optimot drivers modifies the QWERTY layout downstream.
+- The gaming layer is entirely optional.
+- `Alt` and `GUI` may be swapped depending on one's use.
