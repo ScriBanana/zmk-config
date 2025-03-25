@@ -11,7 +11,8 @@
 ## Features:
 #### Leverages Optimot and its driver
 - The Optimot layout is highly optimised for French and English secondarily
-- Its driver provides with many ideally placed characters in secondary layers
+- It gives pride of place to alternating hands, rolling and avoiding collisions (see the [documentation](https://optimot.fr/notes-conception.html))
+- Its driver provides with numerous ideally placed characters in secondary layers
 - `AltGr` is in a key position to access them
 #### Easy to learn, easy to swap
 - Few layers
