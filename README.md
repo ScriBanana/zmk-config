@@ -5,7 +5,7 @@
 - _Keyboard: [Corne](https://github.com/foostan/crkbd)_
 - _Firmware: [ZMK](https://zmk.dev/)_
 
-## Keymap:
+## Keymap layers:
 ![VisualKeyMap](/Illustrations/CorneOptimot.webp)
 
 ## Features:
@@ -40,3 +40,4 @@
 - What is loaded as firmware (`.keymap` file) differs from the picture, as Optimot drivers modifies the QWERTY layout downstream.
 - The gaming layer is entirely optional.
 - `Alt` and `GUI` may be swapped depending on one's use.
+- I am not affiliated with Optimot in any way.
